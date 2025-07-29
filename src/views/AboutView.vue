@@ -1,5 +1,16 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <namae-change />
 </template>
+
+<script>
+  import NamaeChange from '../components/NamaeChange'
+
+  export default {
+    name: 'AboutView',
+
+    components: {
+      NamaeChange,
+    },
+  }
+</script>
+
